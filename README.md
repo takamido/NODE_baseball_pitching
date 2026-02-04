@@ -1,0 +1,18 @@
+## NODE model for predicting pitching motion
+This repository contains code and datasets for prediction and modeling of baseball pitching motion using a NODE model[1]. 
+
+## Folders
+- data: motion data of eight pitchers. Each dataset is stored in MAT format.
+- program: programs for the NODE model. main_program.ipynb is the main script for training and evaluating the model. The other Python files are supplementary programs that contain the functions used by the project.
+- results: a folder containing the results. The figures in the paper can be reproduced using the files in this directory.
+- trained_model: a folder containing the pretrained models. For 10-fold cross-validation, ten models are generated for each pitcher.
+- videos: a folder containing demo videos and visualizations of the results shown on this page.
+
+## How to run
+The implementation is based on Google Colab. Please download the code, data, and pretrained models, and set the paths in the main program to match your environment. You can then reproduce the model training and testing by running the main program.
+
+## Corresponding author
+- Ryota Takamido (<ryota.takamido(at)gmail.com>)
+
+## Reference
+[1] coming soon

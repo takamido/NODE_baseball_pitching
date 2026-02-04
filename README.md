@@ -1,5 +1,7 @@
 ## NODE model for predicting pitching motion
-This repository contains code and datasets for prediction and modeling of baseball pitching motion using a NODE model[1]. 
+This repository contains code and datasets for prediction and modeling of baseball pitching motion using a NODE (Neural Ordinary Differential Equation) model [1]. This NODE model predicts the remaining 92% of the pitching motion based on the initial 8% of the motion after its onset. For technical details, please refer to the original paper [1].
+
+<video src="videos/input_motions.mp4" controls width="720"></video>
 
 ## Folders
 - data: motion data of eight pitchers. Each dataset is stored in MAT format.

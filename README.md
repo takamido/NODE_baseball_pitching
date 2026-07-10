@@ -15,5 +15,7 @@ This repository contains code and datasets for prediction and modeling of baseba
 ## How to run
 The implementation is based on Google Colab. Please download the code, data, and pretrained models, and set the paths in the main program to match your environment. You can then reproduce the model training and testing by running the main program.
 
+To retrain the model or train it under different conditions, set `model_train = 1`, modify the relevant settings, and rerun `main_program`.
+
 ## Reference
 [1] coming soon

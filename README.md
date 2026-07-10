@@ -17,5 +17,7 @@ The implementation is based on Google Colab. Please download the code, data, and
 
 To retrain the model or train it under different conditions, set `model_train = 1`, modify the relevant settings, and rerun `main_program.ipynb`.
 
+Please note that training is time-consuming and takes approximately 20 hours on a T4 GPU.
+
 ## Reference
 [1] Under review

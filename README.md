@@ -10,7 +10,7 @@ This repository contains code and datasets for prediction and modeling of baseba
   
 - trained_model: a folder containing the pretrained models. For 10-fold cross-validation, ten models are generated for each pitcher. Due to the large file size, only the pretrained model with (d = 2) has been uploaded to this repository.
   
-- videos: a folder containing demo videos and visualizations of the results. It includes comparisons between the original and reconstructed motions, as well as videos of latent trajectories and their corresponding reconstructed motions.
+- videos (supporting information): a folder containing demo videos and visualizations of the results. It includes comparisons between the original and reconstructed motions, as well as videos of latent trajectories and their corresponding reconstructed motions.
 
 ## How to run
 The implementation is based on Google Colab. Please download the code, data, and pretrained models, and set the paths in the `main_program.ipynb` to match your environment. You can then reproduce the model training and testing by running the main program.
